@@ -15,5 +15,14 @@ else
   echo "  + Homebrew found."
 fi
 
+
+
 # Install grc and coreutils
 brew install grc coreutils
+
+# Install Hombebrew casks
+brew tap phinze/cask
+brew install brew-cask
+
+brew cask install appcleaner grabbox rdio utorrent onepassword skype teamviewer dropbox vlc steam
+brew cask install sourcetree brackets iterm2 sequel-pro firefox google-chrome google-drive

@@ -5,5 +5,5 @@
 # symlink settings in
 sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 3/
 mv "$sublime_dir/Packages" "$sublime_dir/Packages.backup"
-ln -s "$ZSH/sublime3/Packages" "$sublime_dir"
+ln -s "$ZSH/sublime3/Packages" ~/Library/Application\ Support/Sublime\ Text\ 3/
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
