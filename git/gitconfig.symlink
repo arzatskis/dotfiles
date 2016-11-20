@@ -1,59 +1,35 @@
-# Sample gitconfig
-#
-# You probably want to change the [user] section here since you are not me.
-
+[include]
+        path = ~/.gitconfig.local
 [hub]
         protocol = https
-[user]
-	name = Edvinas Arzatskis
-	email = arzatskis@gmail.com
-[credential]
-        helper = osxkeychain
 [alias]
         co = checkout
-        refresh = "!f(){ git checkout master && git fetch -p; }; f"
-        force = "!f(){ local branch=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e \"s/* \\(.*\\)/\\1/\"`; git push origin $branch --force; }; f"
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributers = !$ZSH/bin/git-rank-contributers
-        count   = !git shortlog -sn
-      	ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
-        sync = "!f(){ local branch=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e \"s/* \\(.*\\)/\\1/\"`; git pull origin $branch && git push origin $branch; }; f"
-	      lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        count = !git shortlog -sn
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = true
 [core]
-	excludesfile = /Users/Edvinas/.gitignore_global
+        excludesfile = ~/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
 [help]
         autocorrect = 1
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[color]
-        ui = auto
 [advice]
         statusHints = false
 [branch]
         autosetupmerge = true
         autosetuprebase = always
 [push]
-	default = current
+        default = current
 [branch "master"]
         rebase = true
 [rebase]
         stat = true
-[diff]
-	tool = vimdiff
-[merge]
-	tool = vimdiff
-[mergetool]
-	keepBackup = false
