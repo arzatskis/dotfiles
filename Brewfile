@@ -21,5 +21,6 @@ cask 'framer'
 cask 'firefox'
 cask 'google-chrome'
 cask 'sequel-pro'
+cask 'goofy'
 
 
