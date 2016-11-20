@@ -8,6 +8,7 @@ brew 'rbenv'
 brew 'imagemagick'
 brew 'grc'
 brew 'yarn'
+brew 'v8'
 
 cask 'sublime-text'
 cask 'spotify'
