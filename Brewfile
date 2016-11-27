@@ -9,6 +9,7 @@ brew 'imagemagick'
 brew 'grc'
 brew 'yarn'
 brew 'v8'
+brew 'zsh-syntax-highlighting'
 
 cask 'sublime-text'
 cask 'spotify'

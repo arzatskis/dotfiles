@@ -12,6 +12,14 @@ then
   source ~/.localrc
 fi
 
+# Load commands highlighting, if zsh plugin installed
+# (brew install zsh-syntax-highlighting)
+# https://github.com/zsh-users/zsh-syntax-highlighting
+if [[ -a /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]
+then
+  source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
+
 # all of our zsh files
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
