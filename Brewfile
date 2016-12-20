@@ -23,5 +23,4 @@ cask 'firefox'
 cask 'google-chrome'
 cask 'sequel-pro'
 cask 'goofy'
-
-
+cask 'java'
