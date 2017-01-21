@@ -3,7 +3,7 @@
 Please visit [original repo](https://github.com/holman/dotfiles/) if you want to
 learn and/or build your own.
 
-Here's just my fork with some parts personalizations :)
+Here's just my fork with some personalizations :)
 
 ## install
 
