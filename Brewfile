@@ -10,6 +10,7 @@ brew 'grc'
 brew 'yarn'
 brew 'v8'
 brew 'zsh-syntax-highlighting'
+brew 'mysql'
 
 cask 'sublime-text'
 cask 'spotify'
