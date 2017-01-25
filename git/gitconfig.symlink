@@ -18,6 +18,8 @@
         whitespace = nowarn
 [mergetool]
         keepBackup = false
+[merge]
+        tool = vimdiff
 [difftool]
         prompt = false
 [help]
