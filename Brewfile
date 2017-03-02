@@ -34,4 +34,5 @@ cask 'google-chrome'
 cask 'sequel-pro'
 cask 'java'
 
-
+tap 'caskroom/fonts'
+cask 'font-source-code-pro'
