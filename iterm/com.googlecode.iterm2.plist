@@ -353,8 +353,8 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>B5EAA8DF-B825-4E8E-A12C-55604381B0C0</string>
-	<key>DimOnlyText</key>
+	<string>9DC3045F-62EB-4062-96E8-9ACAADF278D8</string>
+	<key>HideScrollbar</key>
 	<true/>
 	<key>Hotkey</key>
 	<true/>
@@ -367,7 +367,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/.dotfiles/iterm</string>
+	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -406,10 +406,14 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
+	<string>632 752 616 174 0 0 1920 1177 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>630 588 620 392 0 0 1920 1177 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>456 239 796 473 0 0 1440 877 </string>
+	<string>459 693 796 473 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 22 1400 855 0 0 1440 877 </string>
+	<string>0 0 1880 1177 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -660,7 +664,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>14.14618389423077</real>
+			<real>14.737079326923077</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -747,7 +751,7 @@
 				<real>0.9216761589050293</real>
 			</dict>
 			<key>Guid</key>
-			<string>B5EAA8DF-B825-4E8E-A12C-55604381B0C0</string>
+			<string>9DC3045F-62EB-4062-96E8-9ACAADF278D8</string>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Idle Code</key>
@@ -1064,7 +1068,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>Monaco 11</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1072,7 +1076,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>70</integer>
+			<integer>80</integer>
 			<key>Screen</key>
 			<integer>-2</integer>
 			<key>Scrollback Lines</key>
@@ -1118,7 +1122,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.029810003698224851</real>
+			<real>0.11054456360946746</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -1142,13 +1146,15 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>83AD9693-52C7-4B98-976B-8E97D73F8DD6</string>
+	<string>DE383BF5-5255-4878-8B76-D7FAF7BF3CC2</string>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>506723992.75361699</real>
+	<real>501371334.92232102</real>
 	<key>OnlyWhenMoreTabs</key>
-	<true/>
+	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1184,26 +1190,28 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/edvinas/.dotfiles/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
+	<key>PromptOnQuit</key>
+	<false/>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=43</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=22</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-30T17:44:43Z</date>
+	<date>2017-03-19T11:04:52Z</date>
 	<key>SUSendProfileInfo</key>
-	<false/>
-	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.59999999999999998</real>
-	<key>WordCharacters</key>
-	<string>/-+\~_.</string>
+	<real>0.10000000000000001</real>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findRegex_iTerm</key>
