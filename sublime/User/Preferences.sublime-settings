@@ -69,6 +69,7 @@
 	"match_brackets_square": true,
 	"match_selection": true,
 	"match_tags": true,
+	"material_theme_titlebar": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "system",
 	"preview_on_click": false,
@@ -92,6 +93,5 @@
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"word_wrap": false,
-  "material_theme_titlebar": true
+	"word_wrap": false
 }
