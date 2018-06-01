@@ -9,3 +9,5 @@ PyV8/osx/config.json
 scss_completions.py
 *.DS_Store
 git/gitconfig.local.symlink
+sublime/User/Color Highlighter/icons/*
+sublime/User/Color Highlighter/themes/*
