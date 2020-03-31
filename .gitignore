@@ -1,13 +1,16 @@
-sublime2/User/Package\ Control.sublime-settings
 vim/vim.symlink/.netrwhist
 *.pyc
 *.last-run
 *.cache
-CSS/css_completions.py
-Sass/package-metadata.json
 PyV8/osx/config.json
-scss_completions.py
 *.DS_Store
 git/gitconfig.local.symlink
-sublime/User/Color Highlighter/icons/*
-sublime/User/Color Highlighter/themes/*
+sublime/User/*.merged-ca-bundle
+sublime/User/*.user-ca-bundle
+sublime/User/*.crt
+sublime/User/*.last-run
+sublime/User/*.ca-list
+sublime/User/*.ca-bundle
+sublime/User/*.system-ca-bundle
+sublime/User/*.cache/
+sublime/User/*.ca-certs/
