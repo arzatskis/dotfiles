@@ -3,8 +3,8 @@ then
   echo
   echo "Installing Ruby tools and Ruby 2.2.0"
   eval "$(rbenv init -)"
-  rbenv install 2.2.0 --skip-existing
-  rbenv global 2.2.0
+  rbenv install 2.7.0 --skip-existing
+  rbenv global 2.7.0
   gem install bundler
   rbenv rehash
 fi
