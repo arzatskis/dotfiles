@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 brew 'coreutils'
 brew 'openssl'
-brew 'node'
+brew 'node@12'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'imagemagick'
