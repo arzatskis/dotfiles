@@ -30,8 +30,14 @@ cask 'safari-technology-preview'
 cask 'sequel-pro'
 
 tap 'caskroom/fonts'
+
 cask 'font-source-code-pro'
+
 cask 'font-font-ia-writer-mono'
 cask 'font-font-ia-writer-duo'
 cask 'font-font-ia-writer-duospace'
 cask 'font-font-ia-writer-quattro'
+
+cask 'font-roboto'
+cask 'font-roboto-condensed'
+cask 'font-roboto-mono'
