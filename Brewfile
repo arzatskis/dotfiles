@@ -41,3 +41,10 @@ cask 'font-font-ia-writer-quattro'
 cask 'font-roboto'
 cask 'font-roboto-condensed'
 cask 'font-roboto-mono'
+
+cask 'font-courier-prime'
+cask 'font-courier-prime-code'
+cask 'font-courier-prime-sans'
+cask 'font-courier-prime-medium-and-semi-bold'
+
+
