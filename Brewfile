@@ -10,6 +10,7 @@ brew 'v8'
 brew 'zsh-syntax-highlighting'
 brew 'mysql'
 brew 'nvm'
+brew 'yarn'
 
 cask 'spotify'
 cask 'transmission'
