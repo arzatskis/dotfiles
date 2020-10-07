@@ -7,7 +7,9 @@
 	[
 		"Alignment",
 		"ayu",
+		"EditorConfig",
 		"Emmet",
+		"Handlebars",
 		"Package Control",
 		"SCSS",
 		"Syntax Highlighting for PostCSS",

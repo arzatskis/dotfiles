@@ -44,15 +44,16 @@
 		".git",
 		".svn",
 		"log",
-		"tmp"
+		"tmp",
+		"dist",
+		"built"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"gutters": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Dayle Rees Color Schemes",
-		"Handlebars",
 		"Tomorrow Color Schemes",
 		"Vintage"
 	],
@@ -83,7 +84,7 @@
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
 	"show_tab_close_buttons": true,
-	"smart_indent": false,
+	"smart_indent": true,
 	"soda_classic_tabs": true,
 	"tab_completion": true,
 	"tab_size": 2,
