@@ -3,6 +3,11 @@
 [hub]
         protocol = https
 [alias]
+        amend = commit --amend
+        put = push origin
+        get = pull origin
+        back = reset HEAD^1
+        rr = reset --hard
         co = checkout
         count = !git shortlog -sn
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
