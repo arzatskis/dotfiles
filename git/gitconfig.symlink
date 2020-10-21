@@ -4,8 +4,8 @@
         protocol = https
 [alias]
         amend = commit --amend
-        put = push origin
-        get = pull origin
+        put = push origin HEAD
+        get = pull origin HEAD
         back = reset HEAD^1
         rr = reset --hard
         co = checkout
