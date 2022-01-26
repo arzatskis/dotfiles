@@ -1,7 +1,7 @@
 {
 	"auto_indent": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
+	"color_scheme": "Packages/Night Owl/Night Owl.sublime-color-scheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -46,23 +46,27 @@
 		"log",
 		"tmp",
 		"dist",
-		"built"
+		"built",
+		"_site",
+		".jekyll-cache",
+		"vendor"
 	],
-	"font_size": 11,
+	"font_face": "JetBrains Mono",
+	"font_size": 10,
 	"gutters": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Dayle Rees Color Schemes",
 		"Tomorrow Color Schemes",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
 		"draw_normal"
 	],
-	"line_padding_bottom": 1.5,
-	"line_padding_top": 1.5,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
 	"match_brackets": true,
 	"match_brackets_angle": false,
 	"match_brackets_braces": true,
@@ -96,5 +100,10 @@
 	"ui_native_titlebar": false,
 	"ui_separator": false,
 	"use_tab_stops": true,
-	"word_wrap": false
+	"word_wrap": false,
+  "caret_style": "solid",
+  "caret_extra_top": 1,
+  "caret_extra_bottom": 1,
+  "caret_extra_width": 0,
+	"update_check": false,
 }

@@ -11,6 +11,7 @@
         co = checkout
         count = !git shortlog -sn
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        recent = branch --sort=-committerdate
 [color]
         diff = auto
         status = auto
@@ -40,3 +41,5 @@
         rebase = true
 [rebase]
         stat = true
+[init]
+	defaultBranch = main

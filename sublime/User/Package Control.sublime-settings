@@ -1,5 +1,9 @@
 {
 	"bootstrapped": true,
+  "install_prereleases":
+  [
+    "Sass"
+	],
 	"in_process_packages":
 	[
 	],
@@ -8,11 +12,29 @@
 		"Alignment",
 		"ayu",
 		"EditorConfig",
+		"EJS 2",
 		"Emmet",
 		"Handlebars",
+		"HTMLBeautify",
+		"Javascript Beautify",
+		"JSON Reindent",
+		"JSONLint",
+		"Liquid",
+		"LSP",
+		"LSP-css",
+		"LSP-html",
+		"LSP-json",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"LSP-vue",
+		"Night Owl",
 		"Package Control",
-		"SCSS",
+		"Pug",
+		"Sass",
+		"Svelte",
+		"SVGO",
 		"Syntax Highlighting for PostCSS",
-		"Vue Syntax Highlight"
-	]
+		"Tailwind CSS Autocomplete",
+		"Vue Syntax Highlight",
+	],
 }

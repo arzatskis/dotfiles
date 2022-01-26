@@ -1,0 +1,15 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+    "black": "#1E2431",
+    "white": "#B4C2D9",
+  },
+  "globals":
+  {
+  },
+  "rules":
+  [
+
+  ]
+}
