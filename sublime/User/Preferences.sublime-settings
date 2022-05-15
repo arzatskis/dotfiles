@@ -1,7 +1,7 @@
 {
 	"auto_indent": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Night Owl/Night Owl.sublime-color-scheme",
+	"color_scheme": "ayu-mirage.sublime-color-scheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -58,8 +58,22 @@
 	"ignored_packages":
 	[
 		"Dayle Rees Color Schemes",
+		"EditorConfig",
+		"Javascript Beautify",
+		"JSONLint",
+		"Liquid",
+		"LSP-css",
+		"LSP-json",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"LSP-vue",
+		"Night Owl",
+		"Sass",
+		"Svelte",
+		"Tailwind CSS",
 		"Tomorrow Color Schemes",
 		"Vintage",
+		"Vue Syntax Highlight",
 	],
 	"indent_guide_options":
 	[

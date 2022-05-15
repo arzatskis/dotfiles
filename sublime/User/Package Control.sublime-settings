@@ -6,6 +6,20 @@
 	],
 	"in_process_packages":
 	[
+		"EditorConfig",
+		"Javascript Beautify",
+		"JSONLint",
+		"Liquid",
+		"LSP-css",
+		"LSP-json",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"LSP-vue",
+		"Night Owl",
+		"Sass",
+		"Svelte",
+		"Tailwind CSS",
+		"Vue Syntax Highlight",
 	],
 	"installed_packages":
 	[
