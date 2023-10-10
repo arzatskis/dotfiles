@@ -57,3 +57,10 @@ export NVM_DIR="$HOME/.nvm"
 
 alias pa='php artisan'
 alias gitclean="git branch --merged | egrep -v '(^\*|master|dev)' | xargs git branch -d"
+
+# bun completions
+[ -s "/Users/edvinas/.bun/_bun" ] && source "/Users/edvinas/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
