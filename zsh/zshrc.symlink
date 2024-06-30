@@ -64,3 +64,7 @@ alias gitclean="git branch --merged | egrep -v '(^\*|master|dev)' | xargs git br
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+[[ "$TERM_PROGRAM" == "CodeEditApp_Terminal" ]] && . "/Applications/CodeEdit.app/Contents/Resources/codeedit_shell_integration.zsh"
+
+PATH=~/.console-ninja/.bin:$PATH

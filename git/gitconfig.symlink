@@ -11,7 +11,9 @@
         co = checkout
         count = !git shortlog -sn
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-        recent = !git branch --sort=-committerdate | head -n 10
+        recent = "!f() { git branch --sort=-committerdate --no-merged | head -n ${@:-10}; }; f"
+        up = !git pull && git fetch -p
+        cp = cherry-pick
 [color]
         diff = auto
         status = auto
