@@ -2,13 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Default Bookmark Guid</key>
-	<string>5CA218A3-C831-40BE-ACF5-677AA8DF2A25</string>
-	<key>HapticFeedbackForEsc</key>
+	<key>AdjustWindowForFontSizeChange</key>
 	<false/>
-	<key>HideFromDockAndAppSwitcher</key>
-	<true/>
-	<key>HideMenuBarInFullscreen</key>
+	<key>AppleAntiAliasingThreshold</key>
+	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
+	<key>AppleScrollAnimationEnabled</key>
+	<integer>0</integer>
+	<key>AppleSmoothFixedFontsSizeThreshold</key>
+	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
+	<key>Default Bookmark Guid</key>
+	<string>A24F0C46-FE2A-4DC2-8E2B-121E9642009A</string>
+	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideScrollbar</key>
 	<true/>
@@ -21,9 +29,7 @@
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>HotkeyModifiers</key>
-	<integer>0</integer>
-	<key>IRMemory</key>
-	<integer>4</integer>
+	<integer>256</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -190,25 +196,12 @@
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
-			<key>Badge Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>0.5</real>
-				<key>Blue Component</key>
-				<real>0.0</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.1491314172744751</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>3.2189562182741112</real>
+			<real>20.170146276595744</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -223,7 +216,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>80</integer>
+			<integer>100</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -234,19 +227,6 @@
 				<real>0.73333334922790527</real>
 				<key>Red Component</key>
 				<real>0.73333334922790527</real>
-			</dict>
-			<key>Cursor Guide Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>0.25</real>
-				<key>Blue Component</key>
-				<real>1</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.9268307089805603</real>
-				<key>Red Component</key>
-				<real>0.70213186740875244</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -279,7 +259,7 @@
 				<real>0.73333334922790527</real>
 			</dict>
 			<key>Guid</key>
-			<string>5CA218A3-C831-40BE-ACF5-677AA8DF2A25</string>
+			<string>A24F0C46-FE2A-4DC2-8E2B-121E9642009A</string>
 			<key>Has Hotkey</key>
 			<false/>
 			<key>Hide After Opening</key>
@@ -602,19 +582,6 @@
 					<string>[1;5F</string>
 				</dict>
 			</dict>
-			<key>Link Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
-				<key>Blue Component</key>
-				<real>0.73423302173614502</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.35916060209274292</real>
-				<key>Red Component</key>
-				<real>0.0</real>
-			</dict>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -632,9 +599,9 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>80</integer>
+			<integer>85</integer>
 			<key>Screen</key>
-			<integer>-2</integer>
+			<integer>-1</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Selected Text Color</key>
@@ -670,7 +637,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.11355290291878171</real>
+			<real>0.20049035904255319</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -686,14 +653,12 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Working Directory</key>
 			<string>/Users/edvinas</string>
 		</dict>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
-	<false/>
-	<key>PerPaneBackgroundImage</key>
 	<false/>
 	<key>PointerActions</key>
 	<dict>
@@ -728,18 +693,16 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
-	<key>SplitPaneDimmingAmount</key>
-	<real>0.1636441710992908</real>
-	<key>TabStyleWithAutomaticOption</key>
-	<integer>1</integer>
 	<key>UseLionStyleFullscreen</key>
-	<false/>
+	<true/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
