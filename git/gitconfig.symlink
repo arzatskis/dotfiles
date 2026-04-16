@@ -7,13 +7,21 @@
         put = push origin HEAD
         get = pull origin HEAD
         back = reset HEAD^1
-        rr = reset --hard
+        rr = !git reset --hard && git clean -df
         co = checkout
         count = !git shortlog -sn
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
         recent = "!f() { git branch --sort=-committerdate --no-merged | head -n ${@:-10}; }; f"
         up = !git pull && git fetch -p
         cp = cherry-pick
+        
+        tree  = worktree
+        trees = worktree list
+        tl    = "!f() { git worktree list | tail -n +2 | awk '{print $3 \" \" $1}' | sort -k1 -r | head -n ${@:-10}; }; f"
+        main  = "!git worktree add main main"
+        feat  = "!f() { git worktree add -b feature/$1 ../feature-$1 origin/main 2>/dev/null || git worktree add ../feature-$1 feature/$1;  }; f"
+        fix   = "!f() { git worktree add -b fix/$1 ../fix-$1 bug/$1 || git worktree add ../fix-$1 fix/$1; }; f"
+        go    = "!f() { cd \"$(git rev-parse --show-toplevel)/../$1\" 2>/dev/null || cd \"$(git rev-parse --show-toplevel)/$1\"; }; f"
 [color]
         diff = auto
         status = auto
@@ -45,3 +53,15 @@
         stat = true
 [init]
 	defaultBranch = main
+[rerere]
+  enabled = true
+[pull]
+	rebase = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Edvinas Aržatskis
+	email = hello@edvinas.lt
